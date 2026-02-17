@@ -1,0 +1,42 @@
+site_name: MaudeView Documentation
+site_description: Browser automation for TradingView — 177 REST endpoints, build your own agents
+site_url: https://fomo-driven-development.github.io/MaudeViewTvDocs/
+repo_url: https://github.com/Fomo-Driven-Development/MaudeViewTVCore
+repo_name: MaudeViewTVCore
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: deep purple
+    accent: amber
+  features:
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Architecture: architecture.md
+  - Quick Start: quickstart.md
+  - API Reference: api-reference.md
+  - Building Agents: building-agents.md
+  - Configuration: configuration.md
+  - Security: security.md
