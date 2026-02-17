@@ -3,16 +3,16 @@
 ## System Overview
 
 ```
-┌─────────────┐     CDP      ┌──────────────────┐    REST API    ┌──────────────┐
-│  Chromium    │◄────────────►│  tv_controller    │◄──────────────►│  Your Agent  │
-│  (TradingView)│  WebSocket   │  (Go binary)      │   HTTP/JSON    │  (MCP/CLI/...)│
-└─────────────┘              └──────────────────┘               └──────────────┘
-                                    │
-                                    │ JS eval in
-                                    │ browser tabs
-                                    ▼
-                             TradingView's internal
-                             JavaScript APIs
+┌────────────────┐     CDP      ┌────────────────┐   REST API   ┌────────────────┐
+│    Chromium    │◄────────────►│ tv_controller  │◄────────────►│  Your Agent    │
+│ (TradingView)  │  WebSocket   │  (Go binary)   │  HTTP/JSON   │ (MCP/CLI/...)  │
+└────────────────┘              └────────────────┘              └────────────────┘
+                                       │
+                                       │ JS eval in
+                                       │ browser tabs
+                                       ▼
+                                TradingView's internal
+                                JavaScript APIs
 ```
 
 **Chromium** runs TradingView in a real browser session with your account logged in. The **tv_controller** connects via Chrome DevTools Protocol, evaluates JavaScript in the page context, and exposes the results as a REST API. **Your agent** makes HTTP calls to the controller to automate chart operations.
