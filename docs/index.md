@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.jpg" alt="MaudeView" width="600">
+</p>
+
 # MaudeView
 
 **Browser automation for TradingView via Chrome DevTools Protocol.**
