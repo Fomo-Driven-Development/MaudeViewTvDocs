@@ -2,14 +2,9 @@
 
 The tv_controller exposes 177 REST endpoints for TradingView automation. Browse the full interactive reference below — every endpoint, request/response schema, and parameter is documented.
 
-<div style="height: 85vh;" id="api-reference">
-  <script
-    id="api-reference-script"
-    data-url="./openapi.json"
-    data-configuration='{"theme":"deepSpace","hiddenClients":true}'>
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/@scalar/api-reference"></script>
-</div>
+[Open full-screen API Reference](scalar.html){ .md-button .md-button--primary }
+
+<iframe src="scalar.html" style="width: 100%; height: 80vh; border: 1px solid #333; border-radius: 8px;" loading="lazy"></iframe>
 
 ## Endpoint Overview
 
