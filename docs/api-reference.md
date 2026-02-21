@@ -1,6 +1,6 @@
 # API Reference
 
-The tv_controller exposes 177 REST endpoints for TradingView automation. Browse the full interactive reference below — every endpoint, request/response schema, and parameter is documented.
+The tv_controller exposes 178 REST endpoints for TradingView automation. Browse the full interactive reference below — every endpoint, request/response schema, and parameter is documented.
 
 [Open Interactive API Reference](../scalar.html){ .md-button .md-button--primary }
 
@@ -11,12 +11,12 @@ The tv_controller exposes 177 REST endpoints for TradingView automation. Browse 
 | Charts | 28 | Tab listing, active chart, symbol, resolution, chart type |
 | Watchlists | 15 | CRUD, symbol management, colored lists |
 | Drawings | 20 | Lines, shapes, text, tweets, z-order, visibility |
-| Studies & Indicators | 15 | Add/remove/configure studies, search, favorites |
+| Studies & Indicators | 16 | Add/remove/configure studies, search, favorites, templates |
 | Layouts | 19 | Save, rename, clone, delete, grid templates, multi-pane |
 | Pine Editor | 21 | Toggle, source read/write, save, add to chart, console |
 | Replay | 14 | Activate, step, autoplay, date navigation |
 | Alerts | 14 | CRUD, start/stop, fires, clone |
-| Misc | 28 | Health, strategy, snapshots, currency, units, hotlists |
+| Misc | 29 | Health, strategy, snapshots, currency, units, hotlists |
 
 ## Base URL
 
