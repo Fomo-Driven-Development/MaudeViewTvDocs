@@ -21,13 +21,13 @@
 
 ### Core as Infrastructure
 
-The tv_controller provides 177 endpoints covering nearly every TradingView operation. It handles the hard parts: CDP connection management, tab discovery, JavaScript evaluation with timeouts, mutex-based chart locking, and error handling.
+The tv_controller provides 184 endpoints covering nearly every TradingView operation. It handles the hard parts: CDP connection management, tab discovery, JavaScript evaluation with timeouts, mutex-based chart locking, and error handling.
 
 Your agent doesn't need to know about CDP, WebSockets, or TradingView's internal JavaScript. It just makes HTTP requests.
 
 ### Agents as Thin Clients
 
-A single MCP server with 177 tools would be bloated and unfocused. Instead, you build agents tailored to your workflow:
+A single MCP server with 184 tools would be bloated and unfocused. Instead, you build agents tailored to your workflow:
 
 - A **watchlist manager** that uses 15 watchlist endpoints
 - A **chart setup agent** that combines symbol + resolution + timeframe + indicators

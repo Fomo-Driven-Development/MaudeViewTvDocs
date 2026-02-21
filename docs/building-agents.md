@@ -1,6 +1,6 @@
 # Building Agents
 
-The core gives you 177 REST endpoints. An agent picks the ones it needs and wraps them as tools. This page shows the pattern using Go and the MCP SDK, but any language that can make HTTP requests works.
+The core gives you 184 REST endpoints. An agent picks the ones it needs and wraps them as tools. This page shows the pattern using Go and the MCP SDK, but any language that can make HTTP requests works.
 
 ## The Pattern
 
