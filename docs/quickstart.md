@@ -78,11 +78,23 @@ Install just the tv_controller binary and make API calls yourself — with curl,
 
 ### 1. Install
 
-```bash
-go install github.com/dgnsrekt/MaudeViewTVCore/cmd/tv_controller@latest
-```
+=== "Download binary"
 
-This places the `tv_controller` binary in your `$GOPATH/bin`.
+    Download a pre-built binary from the [latest release](https://github.com/Fomo-Driven-Development/MaudeViewTVCore/releases/latest):
+
+    ```bash
+    # Example: linux amd64
+    curl -L https://github.com/Fomo-Driven-Development/MaudeViewTVCore/releases/latest/download/tv_controller_linux_amd64 -o tv_controller
+    chmod +x tv_controller
+    ```
+
+=== "Build from source"
+
+    ```bash
+    go install github.com/dgnsrekt/MaudeViewTVCore/cmd/tv_controller@latest
+    ```
+
+    This places the `tv_controller` binary in your `$GOPATH/bin`.
 
 ### 2. Configure
 

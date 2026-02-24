@@ -1,6 +1,6 @@
 # API Reference
 
-The tv_controller exposes 184 REST endpoints for TradingView automation. Browse the full interactive reference below — every endpoint, request/response schema, and parameter is documented.
+The tv_controller exposes 186 REST endpoints for TradingView automation. Browse the full interactive reference below — every endpoint, request/response schema, and parameter is documented.
 
 [Open Interactive API Reference](../scalar.html){ .md-button .md-button--primary }
 

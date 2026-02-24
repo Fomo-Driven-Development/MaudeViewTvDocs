@@ -10,9 +10,9 @@ MaudeView gives you programmatic control over TradingView charts through a REST 
 
 ## The Idea
 
-TradingView is powerful but its automation options are limited. MaudeView bridges that gap by connecting to a Chromium browser via CDP and evaluating JavaScript directly in TradingView's pages. The result is 184 REST endpoints covering nearly every chart operation.
+TradingView is powerful but its automation options are limited. MaudeView bridges that gap by connecting to a Chromium browser via CDP and evaluating JavaScript directly in TradingView's pages. The result is 186 REST endpoints covering nearly every chart operation.
 
-But 184 endpoints in a single tool would be unwieldy. Instead of one monolithic agent, MaudeView is designed as a **toolkit**:
+But 186 endpoints in a single tool would be unwieldy. Instead of one monolithic agent, MaudeView is designed as a **toolkit**:
 
 - **[MaudeViewTVCore](https://github.com/Fomo-Driven-Development/MaudeViewTVCore)** is the engine — install it, run it, and you have a REST API for TradingView
 - **You build agents** that call the endpoints you need, packaged as MCP tools, CLI scripts, or whatever fits your workflow
@@ -38,5 +38,5 @@ This keeps each agent focused and your tooling lean.
 
 - [Architecture](architecture.md) — how the pieces fit together
 - [Quick Start](quickstart.md) — get running in 5 minutes
-- [API Reference](api-reference.md) — browse all 184 endpoints
+- [API Reference](api-reference.md) — browse all 186 endpoints
 - [Building Agents](building-agents.md) — create your own agent
